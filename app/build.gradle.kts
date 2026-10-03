@@ -33,10 +33,16 @@ kotlin {
 dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.activity:activity-compose:1.10.1")
+
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3:1.3.1")
+
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
+
+    // Media3 / ExoPlayer
+    implementation("androidx.media3:media3-exoplayer:1.11.1")
+    implementation("androidx.media3:media3-common:1.11.1")
 
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
